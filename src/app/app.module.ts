@@ -6,15 +6,9 @@ import { APP_ROUTES } from './modules/router/app-routing.module';
 import { AppLayoutModule } from './layouts/app-layout/app-layout.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    CoreModule,
-    AppLayoutModule,
-    APP_ROUTES
-  ],
+  declarations: [AppComponent],
+  imports: [CoreModule, AppLayoutModule, APP_ROUTES],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
